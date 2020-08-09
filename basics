@@ -1,0 +1,12 @@
+And :  &
+Or  :  |
+Xor :  ^  Xclusive -Or Non-same bits =1    a^a=0  a^0 =a
+Left Shift : <<   (multiply by 2) a<<b = a*2^b
+Right Shift : >>  (divide by 2)   a>>b = a/2^b
+
+
+ 
+Find ith bit : n&(1<<i)>0 ? 1 : 0
+Set ith bit  : n = n|(1<<i)
+
+
